@@ -16,7 +16,18 @@ blackBtn.onclick = function(){
 
 
 
-const buttons = document.querySelectorAll('.color-select div');
+
+let yCyan = document.getElementById('y-cyan');
+let yYellow = document.getElementById('y-yellow');
+let yOrange = document.getElementById('y-orange');
+let bikeY = document.getElementById('bikeY');
+
+yCyan.onclick = function(){     bikeY.style.backgroundImage = "url(../images/Cyan-Green-Blue-Yamaha.png)";     }
+yYellow.onclick = function(){     bikeY.style.backgroundImage = "url(../images/Yamaha2.png)";    }
+yOrange.onclick = function(){      bikeY.style.backgroundImage = "url(../images/Yamaha3.png)";    }
+
+
+const buttons = document.querySelectorAll('.color-select .yamahaaa');
 buttons.forEach((button) => {
   button.addEventListener('click', () => {
     buttons.forEach((btn) => btn.classList.remove('selected'));
