@@ -75,6 +75,25 @@
 .color-select #black{   background: black;  }
 
 
-.color-select div.selected{
-    border: 5px solid #f9f9f9;
+.color-select div.selected{     border: 5px solid #f9f9f9;  }
+
+
+/*  SECTION BIKES   */
+section{
+    width: 50%;
+    height: 100vh;
+    background-image: url('../images/Cyan-Green-Blue-Yamaha.png');
+    background-size: cover;
+    background-position: center;
+    transition: background-image .30s;
+    margin: 0 50px;
+    padding: 20px 10%;
 }
+.content.bikes, .section-bikes .btn{
+    position: absolute;
+    right: 10%;
+}
+section p{      margin-top: 10px;        }
+.color-select #y-cyan{   background: #00FFFF;  }
+.color-select #y-yellow{   background: yellow;  }
+.color-select #y-orange{   background: orangered;  }
